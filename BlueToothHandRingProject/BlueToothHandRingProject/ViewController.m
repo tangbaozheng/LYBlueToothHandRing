@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "LoadManager.h"
+#import "AFNetworking.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //jiayi
-//    jiaer
-    LoadManager *loadM = [[LoadManager alloc] init];
-    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
-//    [loadM loadWithURL:@"" para:dic result:^id{
-//        
-//    }];
+    AFHTTPSessionManager *ma = [AFHTTPSessionManager manager];
+    [ma GET:@"" parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+        
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+        
+    }];
+    
+    
+    
+    
+    
+    
+    
+    
+    // Do any additional setup after loading the view, typically from a nib.
 }
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
 @end
