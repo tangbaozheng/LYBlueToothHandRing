@@ -17,17 +17,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-//    张三
-//    李四
-    
-//    是用张三
-    
-//    是用谁的
-    
-// 用下面的
-    
-    
     // Override point for customization after application launch.
     return YES;
 }
