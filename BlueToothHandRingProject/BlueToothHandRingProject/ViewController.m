@@ -20,8 +20,7 @@
 }
 -(void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-}
--(void)ahha {
     
+    //////
 }
 @end
