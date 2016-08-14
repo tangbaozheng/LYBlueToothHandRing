@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+<<<<<<< Updated upstream
     //jiayi
+=======
+//    jiaer
+>>>>>>> Stashed changes
 }
 @end
