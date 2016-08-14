@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LoadManager.h"
 @interface ViewController ()
 
 @end
@@ -18,5 +18,10 @@
     [super viewDidLoad];
     //jiayi
 //    jiaer
+    LoadManager *loadM = [[LoadManager alloc] init];
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+//    [loadM loadWithURL:@"" para:dic result:^id{
+//        
+//    }];
 }
 @end

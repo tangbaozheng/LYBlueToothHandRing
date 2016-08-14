@@ -14,6 +14,7 @@
 		CF1FD84B1D5839550096B14F /* BlueToothHandRingProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF1FD8491D5839550096B14F /* BlueToothHandRingProject.xcdatamodeld */; };
 		CF1FD84D1D5839550096B14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1FD84C1D5839550096B14F /* Assets.xcassets */; };
 		CF1FD8501D5839550096B14F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1FD84E1D5839550096B14F /* LaunchScreen.storyboard */; };
+		CF79F7AD1D60C4B70003EBA6 /* LoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF79F7AC1D60C4B70003EBA6 /* LoadManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		CF1FD84C1D5839550096B14F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF1FD84F1D5839550096B14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF1FD8511D5839550096B14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF79F7AB1D60C4B70003EBA6 /* LoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadManager.h; sourceTree = "<group>"; };
+		CF79F7AC1D60C4B70003EBA6 /* LoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				CF1FD8511D5839550096B14F /* Info.plist */,
 				CF1FD8491D5839550096B14F /* BlueToothHandRingProject.xcdatamodeld */,
 				CF1FD83D1D5839550096B14F /* Supporting Files */,
+				CF79F7AB1D60C4B70003EBA6 /* LoadManager.h */,
+				CF79F7AC1D60C4B70003EBA6 /* LoadManager.m */,
 			);
 			path = BlueToothHandRingProject;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				CF1FD84B1D5839550096B14F /* BlueToothHandRingProject.xcdatamodeld in Sources */,
 				CF1FD8421D5839550096B14F /* AppDelegate.m in Sources */,
 				CF1FD83F1D5839550096B14F /* main.m in Sources */,
+				CF79F7AD1D60C4B70003EBA6 /* LoadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +310,7 @@
 				CF1FD8561D5839550096B14F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
